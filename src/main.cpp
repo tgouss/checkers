@@ -1,10 +1,13 @@
 #include <iostream>
-int main()
-{
-int sum = 0, value = 0;
-// read until end-of-file, calculating a running total of all values read
-while (std::cin >> value)
-sum += value; 
-std::cout << "Sum is: " << sum << std::endl;
-return 0;
+
+int main() {
+   std::cout << "Size of char : " << sizeof(char) << std::endl;
+   std::cout << "Size of int : " << sizeof(int) << std::endl;
+   std::cout << "Size of short int : " << sizeof(short int) << std::endl;
+   std::cout << "Size of long int : " << sizeof(long int) << std::endl;
+   std::cout << "Size of float : " << sizeof(float) << std::endl;
+   std::cout << "Size of double : " << sizeof(double) << std::endl;
+   std::cout << "Size of wchar_t : " << sizeof(wchar_t) << std::endl;
+
+   return 0;
 }
